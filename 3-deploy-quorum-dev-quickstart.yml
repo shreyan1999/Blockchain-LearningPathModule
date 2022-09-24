@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.Deploying-GoQuorum-Blockchain-&-obtaining-RPC-endpoint.3-deploy-quorum-dev-quickstart
+title: Exercise - Deploy Quorum Dev Quickstart
+metadata:
+  title: Exercise - Deploy Quorum Dev Quickstart
+  description: In this unit, you'll learn how to deploy Quorum dev Quickstart on azure.
+  author: shreyan1999
+  ms.author: chnoring
+  ms.date: 23/09/2022
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+durationInMinutes: 20
+content: |
+  [!include[](includes/3-deploy-quorum-dev-quickstart.md)]

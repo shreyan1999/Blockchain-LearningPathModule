@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.Deploying-GoQuorum-Blockchain-&-obtaining-RPC-endpoint.5-connect-using-SSH
+title: Exercise - Connect using SSH
+metadata:
+  title: Exercise - Connect using SSH
+  description: In this unit, you'll learn how to connecting to the virtual machine using SSH.
+  author: shreyan1999
+  ms.author: chnoring
+  ms.date: 23/09/2022
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+durationInMinutes: 10
+content: |
+  [!include[](includes/5-connect-using-SSH.md)]

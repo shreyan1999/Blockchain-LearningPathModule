@@ -1,0 +1,54 @@
+### YamlMime:ModuleUnit
+uid: learn.Deploying-GoQuorum-Blockchain-&-obtaining-RPC-endpoint.7-knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Three multiple-choice questions
+  ms.date: 23/09/2022
+  author: shreyan1999
+  ms.author: chnoring
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+durationInMinutes: 3
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  
+  questions:
+    
+    - content: "What is the format of RPC endpoint?"
+      choices:
+        - content: "http://8545:<IP>"
+          isCorrect: false
+          explanation: The arrangement of the RPC endpoint is not correct. IP address should be always a preceding part of the address.
+        - content: "http://<IP>:8545"
+          isCorrect: true
+          explanation: This is correct format for RPC endpoint.
+        - content: "http://<VM_size>:8545"
+          isCorrect: false
+          explanation: VM size is not a part of URL in RPC endpoint.
+    
+    - content: "What is the minimum number of vCPUs you need to select in VM size for better functioning?"
+      choices:
+        - content: "4"
+          isCorrect: true
+          explanation: "This is the correct answer. For this process we will need minimum of 4 vCPUs."
+        - content: "2"
+          isCorrect: false
+          explanation: "Incorrect answer. 2vCPUs might freeze the blockchain and the VM might be frozen for a long time."
+        - content: "3"
+          isCorrect: false
+          explanation: "Incorrect answer. 3vCPUs might freeze the blockchain and the VM might be frozen for a long time. Performance might be hindered."
+        
+
+    - content: "The Host Name in PuTTY Configuration is filled with which detail from the Essential section on Azure portal?"
+      choices:
+        - content: "Subscription ID"
+          isCorrect: false
+          explanation: "Subscription ID is not used for filling the Host Name in PuTTY Configuration. It is related to Azure Portal and not a part of connection parameter."
+        - content: "Size"
+          isCorrect: false
+          explanation: "Size is not used for filling the Host Name in PuTTY Configuration. Size is needed for smooth functioning it has nothing to do with the connection."
+        - content: "Public IP address"
+          isCorrect: true
+          explanation: "Public IP address is used for filling the Host Name in PuTTY Configuration. The format of RPC endpoint is http://<IP>:8545"

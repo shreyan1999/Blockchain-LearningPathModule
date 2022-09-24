@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.Deploying-GoQuorum-Blockchain-&-obtaining-RPC-endpoint.2-concept-unit
+title: Concept Unit
+metadata:
+  title: Concept Unit
+  description: In this unit, you'll get introduced to different concepts and learn definitions.
+  author: shreyan1999
+  ms.author: chnoring
+  ms.date: 23/09/2022
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+durationInMinutes: 10
+content: |
+  [!include[](includes/2-concept-unit.md)]
