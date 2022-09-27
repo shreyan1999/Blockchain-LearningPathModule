@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.Deploying-GoQuorum-Blockchain-&-obtaining-RPC-endpoint.6-setting-up-blockchain
+title: Quorum Quickstart - Setting up Blockchain
+metadata:
+  title: Quorum Quickstart - Setting up Blockchain
+  description: In this unit, you'll learn how to setup your blockchain for building an application.
+  author: shreyan1999
+  ms.author: chnoring
+  ms.date: 23/09/2022
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+durationInMinutes: 10
+content: |
+  [!include[](includes/6-setting-up-blockchain.md)]

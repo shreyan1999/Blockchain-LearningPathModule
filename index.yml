@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn.Deploying-GoQuorum-Blockchain-&-obtaining-RPC-endpoint
+metadata:
+  title: Deploying GoQuorum Blockchain & obtaining RPC Endpoint
+  description: Learn how to deploy GoQuorum Blockchain on azure and obtain an RPC endpoint for deploying Blockchain Workbench.
+  ms.date: 23/09/2022
+  author: shreyan1999
+  ms.author: chnoring
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Deploying GoQuorum Blockchain & obtaining RPC Endpoint 
+summary: In this module we learn the steps involved to deploy a private blockchain on Azure using the Quorum Devkit by Consensys on Azure.
+abstract: |
+  In this module, you will:
+  - Deploy Quorum Dev QuickStart
+  - Set up your blockchain
+  - Obtain the RPC endpoint
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+  - beginner
+roles:
+  - developer
+products:
+  - vs
+prerequisites: Basic knowledge of Node.js
+units:
+  - learn.Deploying-GoQuorum-Blockchain-&-obtaining-RPC-endpoint.1-introduction
+  - learn.Deploying-GoQuorum-Blockchain-&-obtaining-RPC-endpoint.2-concept-unit
+  - learn.Deploying-GoQuorum-Blockchain-&-obtaining-RPC-endpoint.3-deploy-quorum-dev-quickstart
+  - learn.Deploying-GoQuorum-Blockchain-&-obtaining-RPC-endpoint.4-accessing-the-virtual-machine-concepts
+  - learn.Deploying-GoQuorum-Blockchain-&-obtaining-RPC-endpoint.5-connect-using-SSH
+  - learn.Deploying-GoQuorum-Blockchain-&-obtaining-RPC-endpoint.6-setting-up-blockchain
+  - learn.Deploying-GoQuorum-Blockchain-&-obtaining-RPC-endpoint.7-knowledge-check
+  - learn.Deploying-GoQuorum-Blockchain-&-obtaining-RPC-endpoint.8-summary
+badge:
+  uid: learn.Deploying-GoQuorum-Blockchain-&-obtaining-RPC-endpoint.badge
